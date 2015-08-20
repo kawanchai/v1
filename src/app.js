@@ -1,12 +1,12 @@
 import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
+
 
 export class App {
   configureRouter(config, router){
-    config.title = 'Aurelia';
+    config.title = 'Benny\'s Restaurant';
     config.map([
       { route: ['','welcome'],  name: 'welcome',      moduleId: 'welcome',      nav: true, title:'Welcome' },
-      { route: 'users',         name: 'users',        moduleId: 'users',        nav: true, title:'Github Users' },
+      { route: 'contact',         name: 'contact',        moduleId: 'contact',        nav: true, title:'Contact' },
       { route: 'child-router',  name: 'child-router', moduleId: 'child-router', nav: true, title:'Child Router' }
     ]);
 
